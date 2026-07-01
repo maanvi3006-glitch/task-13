@@ -1,0 +1,2 @@
+total_offers,sent,viewed,signed,accepted,send_rate_pct,view_rate_pct,sign_rate_pct,acceptance_rate_pct,overall_offer_to_acceptance_pct,interviews_scheduled,interviews_completed,interviews_cancelled,interviews_no_show,data_quality_status,freshness_status,generated_at
+10008,9697,8222,5150,4777,96.89,84.79,62.64,92.76,47.73,2480,1650,437,206,ATTENTION_NEEDED,PASS,2026-07-01T11:17:06

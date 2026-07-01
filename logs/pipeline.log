@@ -1,0 +1,11 @@
+2026-07-01 16:51:03,751 | INFO | create_database | Connecting to database at C:\Users\maanv\Downloads\placemux_offer_acceptance\placemux_offer_acceptance\database\placemux.db
+2026-07-01 16:51:03,822 | INFO | create_database | Schema applied successfully.
+2026-07-01 16:51:03,823 | INFO | create_database | Tables present: ['candidates', 'events', 'interviews', 'offers']
+2026-07-01 16:51:03,823 | INFO | create_database | Database connection closed.
+2026-07-01 16:52:35,196 | INFO | generate_data | Generating 10000 candidates...
+2026-07-01 16:52:37,366 | INFO | generate_data | Simulating offer lifecycle and events...
+2026-07-01 16:52:38,565 | INFO | generate_data | Injected 8 duplicate offers and nulled offer_hash on 5 signed offers for QA testing.
+2026-07-01 16:52:38,575 | INFO | generate_data | Generated: 10000 candidates, 10008 offers, 42032 events, 4206 interviews
+2026-07-01 16:52:38,780 | INFO | generate_data | Data persisted to SQLite database at C:\Users\maanv\Downloads\placemux_offer_acceptance\placemux_offer_acceptance\database\placemux.db
+2026-07-01 16:52:38,957 | INFO | generate_data | CSV exports written to C:\Users\maanv\Downloads\placemux_offer_acceptance\placemux_offer_acceptance\data
+2026-07-01 16:53:02,661 | INFO | validation_checks | Validation summary: {'duplicate_candidates_flagged': 8, 'null_hash_signed_offers_flagged': 5, 'freshness': {'status': 'PASS', 'last_event_time': '2026-07-09T18:52:53', 'age_hours': -194.0, 'sla_hours': 24, 'total_events': 42032}, 'event_integrity': {'orphan_events': 0, 'stage_order_violations': 0, 'status': 'PASS'}, 'overall_status': 'ATTENTION_NEEDED'}
